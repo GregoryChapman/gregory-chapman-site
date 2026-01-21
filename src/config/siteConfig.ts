@@ -25,10 +25,11 @@ export const siteConfig = {
         title: "Gallery",
         description: "A small collection of places and moments I’ve found interesting over time.",
         images: [
-            { src: "/gallery/mountain.png", alt: "Misty mountain ridge" },
-            { src: "/gallery/architecture.png", alt: "Architectural detail" },
-            { src: "/gallery/trees.png", alt: "Winter trees" },
-            { src: "/gallery/lake.png", alt: "Lake reflection at dusk" },
+            { src: "/gallery/stadium.jpg", alt: "Rogers Centre Canada Flag" },
+            { src: "/gallery/snow.jpg", alt: "Heavy snowfall" },
+            { src: "/gallery/ocean.jpg", alt: "Ocean waves" },
+            { src: "/gallery/zipline.jpg", alt: "Ziplining in Mexico" },
+            { src: "/gallery/sand_sculpture.jpg", alt: "Sand sculpture" },
         ],
     },
     // Credibility and Capabilities sections are deprecated for this iteration
@@ -52,7 +53,7 @@ export const siteConfig = {
     writing: {
         title: "Notes",
         description: "I write to clarify my thinking on systems, constraints, and the practical challenges of building software.",
-        substackUrl: "#", // Placeholder
+        substackUrl: "https://substack.com/@gregorychapman",
         posts: [
             { title: "AI in regulated environments", href: "#" },
             { title: "The role of narrative in technical demos", href: "#" },
