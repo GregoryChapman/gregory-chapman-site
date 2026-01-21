@@ -2,23 +2,34 @@ export const siteConfig = {
     header: {
         title: "Gregory Chapman",
         navLinks: [
-            { name: "About", href: "#about" },
-            { name: "Notes", href: "#writing" },
-            { name: "Elsewhere", href: "#contact" },
+            { name: "About", href: "/#about" },
+            { name: "Notes", href: "/#writing" },
+            { name: "Gallery", href: "/gallery" },
+            { name: "Elsewhere", href: "/#contact" },
         ],
         cta: {
             label: "Find me",
-            href: "#contact",
+            href: "/#contact",
         },
     },
     hero: {
         headline: "I work on system design and solution engineering for the public sector.",
         subheadline: "My focus is on understanding how technology like AI interacts with institutional constraints. I help organizations make technical decisions that align with their policy goals.",
         ctas: [
-            { label: "About me", href: "#about", primary: true },
-            { label: "Read my notes", href: "#writing", primary: false },
+            { label: "About me", href: "/#about", primary: true },
+            { label: "Read my notes", href: "/#writing", primary: false },
         ],
         headshot: "/headshot.jpg",
+    },
+    gallery: {
+        title: "Gallery",
+        description: "A small collection of places and moments I’ve found interesting over time.",
+        images: [
+            { src: "/gallery/mountain.png", alt: "Misty mountain ridge" },
+            { src: "/gallery/architecture.png", alt: "Architectural detail" },
+            { src: "/gallery/trees.png", alt: "Winter trees" },
+            { src: "/gallery/lake.png", alt: "Lake reflection at dusk" },
+        ],
     },
     // Credibility and Capabilities sections are deprecated for this iteration
     credibility: {
