@@ -6,6 +6,15 @@ export default function Footer() {
             <div className="container mx-auto px-6">
                 <p className="text-slate-600 text-sm">
                     &copy; {new Date().getFullYear()} {siteConfig.header.title}. All rights reserved.
+                    <span className="mx-2">|</span>
+                    <a
+                        href="https://www.chapmandigitalservices.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-slate-400 transition-colors"
+                    >
+                        Built by Chapman Digital Services
+                    </a>
                 </p>
             </div>
         </footer>
