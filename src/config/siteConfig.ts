@@ -2,8 +2,8 @@ export const siteConfig = {
     header: {
         title: "Gregory Chapman",
         navLinks: [
-            { name: "About", href: "/#about" },
-            { name: "Notes", href: "/#writing" },
+            { name: "About", href: "/about" },
+            { name: "Notes", href: "/notes" },
             { name: "Gallery", href: "/gallery" },
             { name: "Elsewhere", href: "/#contact" },
         ],
@@ -13,11 +13,11 @@ export const siteConfig = {
         },
     },
     hero: {
-        headline: "I work on system design and solution engineering for the public sector.",
-        subheadline: "My focus is on understanding how technology like AI interacts with institutional constraints. I help organizations make technical decisions that align with their policy goals.",
+        headline: "Public systems, technology, and decision-making.",
+        subheadline: "I work on system design and solution engineering for the public sector. My focus is on understanding how technology like AI interacts with institutional constraints.",
         ctas: [
-            { label: "About me", href: "/#about", primary: true },
-            { label: "Read my notes", href: "/#writing", primary: false },
+            { label: "About me", href: "/about", primary: true },
+            { label: "Read my notes", href: "/notes", primary: false },
         ],
         headshot: "/headshot.jpg",
     },

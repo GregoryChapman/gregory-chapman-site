@@ -1,6 +1,12 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { siteConfig } from "@/config/siteConfig";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Gallery | Gregory Chapman",
+    description: "A quiet collection of places and moments of interest.",
+};
 
 export default function GalleryPage() {
     return (

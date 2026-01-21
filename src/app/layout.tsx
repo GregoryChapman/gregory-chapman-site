@@ -5,8 +5,18 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Gregory Chapman | AI Consultant & Sr. Solutions Engineer",
-    description: "Portfolio of Gregory Chapman - AI Consultant and Pre-Sales Specialist bridging technology and business value.",
+    title: {
+        template: "%s | Gregory Chapman",
+        default: "Gregory Chapman | Public Sector Systems & AI",
+    },
+    description: "Work at the intersection of public systems, technology, and decision-making.",
+    metadataBase: new URL("https://gregorychapman.ca"),
+    openGraph: {
+        type: "website",
+        locale: "en_CA",
+        url: "https://gregorychapman.ca",
+        siteName: "Gregory Chapman",
+    },
 };
 
 export default function RootLayout({
