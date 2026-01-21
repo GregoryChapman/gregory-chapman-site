@@ -3,109 +3,53 @@ export const siteConfig = {
         title: "Gregory Chapman",
         navLinks: [
             { name: "About", href: "#about" },
-            { name: "Focus", href: "#capabilities" },
-            { name: "Projects", href: "#work" },
             { name: "Notes", href: "#writing" },
+            { name: "Elsewhere", href: "#contact" },
         ],
         cta: {
-            label: "Say hello",
+            label: "Find me",
             href: "#contact",
         },
     },
     hero: {
-        headline: "I spend a lot of time thinking about how people work — and how tools can make that easier.",
-        subheadline: "Usually that involves AI, data, and a bit of storytelling. I build prototypes, write about systems, and try to make complex tech feel approachable.",
+        headline: "Exploring the intersection of public systems, technology, and decision-making.",
+        subheadline: "I work on problems where AI fits into institutional systems—where it helps, where it introduces risk, and how to move forward without eroding trust.",
         ctas: [
-            { label: "Check out my projects", href: "#work", primary: true },
+            { label: "About me", href: "#about", primary: true },
             { label: "Read my notes", href: "#writing", primary: false },
         ],
-        headshot: "/headshot.jpg", // Placeholder path
+        headshot: "/headshot.jpg",
     },
+    // Credibility and Capabilities sections are deprecated for this iteration
     credibility: {
-        stats: [
-            { value: "3+", label: "Years Building" },
-            { value: "40+", label: "Prototypes" },
-            { value: "1k+", label: "People Taught" },
-            { value: "AI", label: "Experiments" },
-        ],
+        stats: [],
+    },
+    capabilities: [],
+    // Work section is deprecated for this iteration
+    work: {
+        title: "",
+        items: [],
     },
     about: {
-        title: "Hi, I'm Greg.",
+        title: "About",
         description: [
-            "I’ve always been curious about the gap between 'what technology can do' and 'what people actually do with it'.",
-            "My day job leans into Solution Engineering and AI—exploring how platforms like Salesforce can change public sector work. But really, I just like taking messy problems and finding clean, useful solutions.",
-            "When I’m not staring at a screen, I’m usually skiing in Whistler, losing a game of chess, or nerding out over theme park design.",
-        ],
-    },
-    capabilities: [
-        {
-            title: "Making AI Useful",
-            description: "Moving beyond the hype to figure out where agents and automation actually help real humans get work done.",
-            icon: "Cpu",
-        },
-        {
-            title: "Storytelling with Tech",
-            description: "Building demos and narratives that explain 'why' something matters, not just 'how' it works.",
-            icon: "Presentation",
-        },
-        {
-            title: "Data Clarity",
-            description: "Turning confusing spreadsheets and dashboards into clear signals that help people decide what to do next.",
-            icon: "BarChart3",
-        },
-        {
-            title: "Public Sector Modernization",
-            description: "Thinking about how government services can be faster, friendlier, and more accessible for everyone.",
-            icon: "Landmark",
-        },
-    ],
-    work: {
-        title: "Things I've Built / Explored",
-        items: [
-            {
-                title: "Agentic Workflows",
-                description: "Experimenting with autonomous agents to handle routine tasks—and finding out where they break.",
-                tags: ["AI", "Experiments"],
-            },
-            {
-                title: "Better Public Services",
-                description: "Reimagining how citizens apply for permits and grants without getting a headache.",
-                tags: ["Public Sector", "Design"],
-            },
-            {
-                title: "Regulatory Tech",
-                description: "Building workflows for inspections and licensing that actually make sense for the inspector.",
-                tags: ["Workflow", "Efficiency"],
-            },
-            {
-                title: "Grant Management",
-                description: "Making the path from 'application' to 'funding' transparent and fast.",
-                tags: ["Finance", "Process"],
-            },
-            {
-                title: "Hiring Portals",
-                description: " Designing interfaces that treat candidates like people, not rows in a database.",
-                tags: ["UX", "Talent"],
-            },
-            {
-                title: "Mapping Decisions",
-                description: "Using GIS to put data on a map, because seeing 'where' changes how we understand 'what'.",
-                tags: ["ESRI", "Maps"],
-            },
+            "I’ve spent the last few years working on public sector modernization and AI-enabled systems. My interest lies in the gap between policy intent and technical implementation.",
+            "In regulated environments, moving fast isn't always the goal. Building resilience is. I focus on problem framing and solution design that respects constraints while still finding ways to improve how essential services are delivered.",
+            "Beyond the screen, I value time spent in the mountains and the clarity that comes from disconnecting.",
         ],
     },
     writing: {
-        title: "Notes & Doubts",
-        description: "I use writing to figure out what I think. It’s mostly about AI, career growth, and the messy process of building things.",
-        substackUrl: "https://substack.com", // Placeholder
+        title: "Notes",
+        description: "Thinking out loud about systems, trade-offs, and the messy process of building things. No schedule, just exploration.",
+        substackUrl: "#", // Placeholder
         posts: [
-            { title: "Why technical demos are actually just stories", href: "#" },
-            { title: "The gap between AI hype and reality", href: "#" },
-            { title: "Learning in public (and being wrong)", href: "#" },
+            { title: "The gap between AI hype and institutional reality", href: "#" },
+            { title: "Why technical demos are acts of storytelling", href: "#" },
+            { title: "Learning in public: on being wrong", href: "#" },
         ],
     },
     contact: {
         email: "gchapman41@gmail.com",
-        linkedin: "https://www.linkedin.com/in/gregory-chapman-a69a8919a/", // Replace with real URL
+        linkedin: "https://www.linkedin.com/in/gregory-chapman-a69a8919a/",
     },
 };

@@ -6,11 +6,7 @@ export default function Contact() {
     return (
         <section id="contact" className="py-24">
             <div className="container mx-auto px-6 max-w-2xl text-center">
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Say Hello</h2>
-                <p className="text-slate-400 mb-12 text-lg">
-                    I’m always happy to chat about AI, mountain life, or building better systems. No strings attached.
-                </p>
-
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Elsewhere</h2>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
                     <Link
                         href={`mailto:${siteConfig.contact.email}`}

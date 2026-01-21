@@ -13,10 +13,7 @@ export default function Home() {
         <main className="bg-navy-900 min-h-screen">
             <Header />
             <Hero />
-            <Credibility />
             <About />
-            <Capabilities />
-            <Work />
             <Writing />
             <Contact />
             <Footer />
