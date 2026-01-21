@@ -30,6 +30,11 @@ export const siteConfig = {
             { src: "/gallery/ocean.jpg", alt: "Ocean waves" },
             { src: "/gallery/zipline.jpg", alt: "Ziplining in Mexico" },
             { src: "/gallery/sand_sculpture.jpg", alt: "Sand sculpture" },
+            { src: "/gallery/lake_dock.jpg", alt: "Lakeside dock in autumn" },
+            { src: "/gallery/valley_view.jpg", alt: "Valley view" },
+            { src: "/gallery/light_arch.jpg", alt: "Light installation" },
+            { src: "/gallery/concert.jpg", alt: "Concert stage lights" },
+            { src: "/gallery/cows.jpg", alt: "Meeting cows" },
         ],
     },
     // Credibility and Capabilities sections are deprecated for this iteration
