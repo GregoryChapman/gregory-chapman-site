@@ -41,11 +41,10 @@ export default function Hero() {
                     </div>
                 </div>
 
-                {/* Hero Visual / Headshot */}
-                <div className="relative animate-fade-in delay-200 hidden md:block">
+                <div className="relative animate-fade-in delay-200 hidden md:block flex justify-center">
                     {/* Geometric Decoration */}
-                    <div className="absolute inset-0 border-2 border-white/5 rounded-2xl rotate-3 scale-105 z-0" />
-                    <div className="relative z-10 bg-navy-800 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+                    <div className="absolute inset-0 border-2 border-white/5 rounded-2xl rotate-3 scale-105 z-0 max-w-sm mx-auto" />
+                    <div className="relative z-10 bg-navy-800 rounded-2xl overflow-hidden border border-white/10 shadow-2xl max-w-sm mx-auto">
                         <img
                             src={siteConfig.hero.headshot}
                             alt="Gregory Chapman"
