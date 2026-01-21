@@ -12,8 +12,8 @@ export const siteConfig = {
         },
     },
     hero: {
-        headline: "Exploring the intersection of public systems, technology, and decision-making.",
-        subheadline: "I work on problems where AI fits into institutional systems—where it helps, where it introduces risk, and how to move forward without eroding trust.",
+        headline: "I work on system design and solution engineering for the public sector.",
+        subheadline: "My focus is on understanding how technology like AI interacts with institutional constraints. I help organizations make technical decisions that align with their policy goals.",
         ctas: [
             { label: "About me", href: "#about", primary: true },
             { label: "Read my notes", href: "#writing", primary: false },
@@ -33,19 +33,19 @@ export const siteConfig = {
     about: {
         title: "About",
         description: [
-            "I’ve spent the last few years working on public sector modernization and AI-enabled systems. My interest lies in the gap between policy intent and technical implementation.",
-            "In regulated environments, moving fast isn't always the goal. Building resilience is. I focus on problem framing and solution design that respects constraints while still finding ways to improve how essential services are delivered.",
-            "Beyond the screen, I value time spent in the mountains and the clarity that comes from disconnecting.",
+            "I work in solution engineering, specifically within the public sector. My focus is on designing technical systems that can operate effectively within complex regulatory environments.",
+            "I am interested in AI and automation—not as abstract concepts, but as tools that must function reliably alongside human decision-making. I spend my time evaluating where these technologies add value and where they require careful oversight.",
+            "When I am not working, I am usually skiing, playing chess, or reading about the engineering behind theme parks.",
         ],
     },
     writing: {
         title: "Notes",
-        description: "Thinking out loud about systems, trade-offs, and the messy process of building things. No schedule, just exploration.",
+        description: "I write to clarify my thinking on systems, constraints, and the practical challenges of building software.",
         substackUrl: "#", // Placeholder
         posts: [
-            { title: "The gap between AI hype and institutional reality", href: "#" },
-            { title: "Why technical demos are acts of storytelling", href: "#" },
-            { title: "Learning in public: on being wrong", href: "#" },
+            { title: "AI in regulated environments", href: "#" },
+            { title: "The role of narrative in technical demos", href: "#" },
+            { title: "Building for resilience, not just speed", href: "#" },
         ],
     },
     contact: {
